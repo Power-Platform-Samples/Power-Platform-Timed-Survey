@@ -12,3 +12,4 @@ Throughout this sample, we would be using SharePoint for storing our data. Share
 
 In SharePoint, we would need to create a List. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to. Our database 
 
+I would show you how to integrate this into your organization's Teams tenant using 2 different Power Platform technologies. First with Power Apps and next with Power Virtual Agents.
