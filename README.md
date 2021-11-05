@@ -3,13 +3,24 @@ At Microsoft, we cherish and care about our employees. They are an integral part
 
 Microsoft's Power Platform can help make this happen. This sample showcases how you can integrate an automated employee review system in your organization using either Power Apps or Power Virtual Agents. Your automated system would share the survey with employees in your organization at the scheduled time and date, collect all responses, and upload them in real-time on SharePoint. From SharePoint, you can visualize the results to gain confirmed insights for growing your organization using Power BI.
 
-# Pre-Requisites
+In this sample, I would show you how to integrate this system into your organization's Teams tenant using either Power Apps or Power Virtual Agents and Power Automate.
+
+# Prerequisites
 Throughout this sample, we would be using SharePoint for storing our data. SharePoint enables you
 -	Build intranet sites and create pages, document libraries, and lists.
 -	Discover, follow, and search for sites, files, and people across your company.
 -	Manage your daily routine with workflows, forms, and lists.
 -	Sync and store your files in the cloud so anyone can securely work with you.
 
-In SharePoint, we would need to create a List. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to. Our database 
+SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
 
-I would show you how to integrate this into your organization's Teams tenant using 2 different Power Platform technologies. First with Power Apps and next with Power Virtual Agents.
+Throuhgout this sample, we would be using the sharepoint list we would create now.
+
+# Creating a SharePoint List
+- Head over to sharepoint.com and sign in with your Microsoft account,
+- Next click '+ New' and 'List' in the dropdown,
+- Click on 'Blank List', fill in the details
+    * Name: Give your list a name. I'll name mine - SurveySolutions,
+    * Description: You could decide to add a description, but I'll keep mine blank,
+    * Site Navigation: Ensure that
+- Once you have completed this, click on 'Create'
