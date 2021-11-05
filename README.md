@@ -18,6 +18,9 @@ Throuhgout this sample, we would be using the sharepoint list we would create no
 
 # Creating a SharePoint List
 - Head over to sharepoint.com and sign in with your Microsoft account,
+
+![sharepoint-1](https://user-images.githubusercontent.com/59547637/140572085-64bef340-3b3d-4ff0-980c-c040e1160842.PNG)
+
 - Next click '+ New' and 'List' in the dropdown,
 - Click on 'Blank List', fill in the details
     * Name: Give your list a name. I'll name mine - SurveySolutions,
