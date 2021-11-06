@@ -46,6 +46,19 @@ In our survey, we want employees from different departments in our organization 
 * Do you feel like you are heading the right direction as a team?
 * Do you feel energized about your job?
 
-With this, we need to create a column for their Department and a column for each question.
+Our database needs to have a column for their department and each column for each question.
 
-- Click 
+- To add the department column, click on the first column 'Title'. Go to 'Column Settings', then 'Rename' and change the name of the column from Title to Department.
+- To add a column for the each question, click on '+ Add Column', then 'Choice'. 
+- In the sidebar that pops out fill in the following details:
+* Name: Use each question as the name of each column.
+* Choices: Add 0 to 5 as the options. 
+* Under 'More Options', change 'Display choices using' from Drop-Down Menu to Radio Buttons. Also make sure the section 'Require that this column contains information' is toggled to Yes so employees do not skip any of the questions.
+- Click on 'Save' to save the column.
+- Replicate this process for the other questions. At the end, your SharePoint list should look like the one in the image below.
+
+Now it's time to start developing an interface for our solution! THe frst 2 folders shows how you can bring this to life as a Power Apps application for employees to interact with or as a virtual agent using Power Virtual Agents and Power Automate.
+
+In either case, the response of each employee is automatically updated on our SharePoint List. The last folder shows us how we can visualize the response using either Power BI Online Service or Power BI Desktop.
+
+TIME TO BRING THIS TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
