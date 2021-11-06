@@ -27,7 +27,7 @@ In this sample, we would create a Communication Site.
 - Click on '+ Create site' and select 'Communication site'.
 - Give your site a name and add a description if you wish to at this point. 
     Notice that as you type in the name of your site, it automatically creates a site address and confirms if it is available in your organization. You can also decide to pick another language convenient for you aside English.
-- When completed, click 'Finish'.
+- When completed, click 'Finish'. The result is as shown in the image below.
 
 # Creating a SharePoint List
 - Click on '+ New' and in the dropdown, click on 'List'.
