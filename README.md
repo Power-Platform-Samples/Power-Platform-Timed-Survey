@@ -7,23 +7,29 @@ In this sample, I would show you how to integrate this system into your organiza
 
 # Prerequisites
 Throughout this sample, we would be using SharePoint for storing our data. SharePoint enables you
--	Build intranet sites and create pages, document libraries, and lists.
--	Discover, follow, and search for sites, files, and people across your company.
--	Manage your daily routine with workflows, forms, and lists.
--	Sync and store your files in the cloud so anyone can securely work with you.
+-   Build intranet sites and create pages, document libraries, and lists.
+-   Discover, follow, and search for sites, files, and people across your company.
+-   Manage your daily routine with workflows, forms, and lists.
+-   Sync and store your files in the cloud so anyone can securely work with you.
 
-SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
+SharePoint stores and displays information in form of a list. It is a collection of data that you can share with your team members and people who you've provided access to.
 
-Throuhgout this sample, we would be using the sharepoint list we would create now.
+Throughout this sample, we would be making use of a SharePoint list. First we need to create a SharePoint site. If you have already created one, you just need to create a list to store information.
+
+# Creating a SharePoint Online Site
+There are two types of SharePoint sites:
+- Team sites enables team members create and edit content and collaborate on projects, events, or ideas. They are restricted to people in your Microsoft 365 Group. Each member of the group has the same permissions.
+- Communication sites are relevant when you need to broadcast a message, tell a story or share content for viewing to a large audience. Behind the scene, just a few members are given permissions to create and contribute to content.
+
+In this sample, we would create a Communication Site.
+
+- Head over to sharepoint.com and sign in with your Microsoft account.
+- Click on '+ Create site' and select 'Communication site'.
+- Give your site a name and add a description if you wish to at this point. 
+    Notice that as you type in the name of your site, it automatically creates a site address and confirms if it is available in your organization. You can also decide to pick another language convenient for you aside English.
+- When completed, click 'Finish'.
 
 # Creating a SharePoint List
-- Head over to sharepoint.com and sign in with your Microsoft account,
-
-![sharepoint-1](https://user-images.githubusercontent.com/59547637/140572085-64bef340-3b3d-4ff0-980c-c040e1160842.PNG)
-
-- Next click '+ New' and 'List' in the dropdown,
-- Click on 'Blank List', fill in the details
-    * Name: Give your list a name. I'll name mine - SurveySolutions,
-    * Description: You could decide to add a description, but I'll keep mine blank,
-    * Site Navigation: Ensure that
-- Once you have completed this, click on 'Create'
+- Click on '+ New' and in the dropdown, click on 'List'.
+- Click on 'Blank List' and give your SharePoint List a name. If you wish to, you can add a description or decide to leave that for later.
+- Once you have completed this, click on 'Create'.
