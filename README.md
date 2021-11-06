@@ -61,4 +61,4 @@ Now it's time to start developing an interface for our solution! THe frst 2 fold
 
 In either case, the response of each employee is automatically updated on our SharePoint List. The last folder shows us how we can visualize the response using either Power BI Online Service or Power BI Desktop.
 
-TIME TO BRING THIS TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
+TIME TO BRING THIS SOLUTION TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
