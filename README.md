@@ -55,7 +55,9 @@ Our database needs to have a column for their department and each column for eac
 * Choices: Add 0 to 5 as the options. 
 * Under 'More Options', change 'Display choices using' from Drop-Down Menu to Radio Buttons. Also make sure the section 'Require that this column contains information' is toggled to Yes so employees do not skip any of the questions.
 - Click on 'Save' to save the column.
-- Replicate this process for the other questions. At the end, your SharePoint list should look like the one in the image below.
+- Replicate this process for the other questions. When you are through replicating this, your SharePoint list should look like the one in the image below.
+
+![sharepoint-4](https://user-images.githubusercontent.com/59547637/140619690-91820d01-134f-4a86-8d21-138a2b2f7a09.PNG)
 
 Now it's time to start developing an interface for our solution! THe frst 2 folders shows how you can bring this to life as a Power Apps application for employees to interact with or as a virtual agent using Power Virtual Agents and Power Automate.
 
