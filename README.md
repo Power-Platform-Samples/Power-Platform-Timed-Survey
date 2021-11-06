@@ -16,20 +16,28 @@ SharePoint stores and displays information in form of a list. It is a collection
 
 Throughout this sample, we would be making use of a SharePoint list. First we need to create a SharePoint site. If you have already created one, you just need to create a list to store information.
 
-# Creating a SharePoint Online Site
+# Creating a SharePoint Site
 There are two types of SharePoint sites:
 - Team sites enables team members create and edit content and collaborate on projects, events, or ideas. They are restricted to people in your Microsoft 365 Group. Each member of the group has the same permissions.
-- Communication sites are relevant when you need to broadcast a message, tell a story or share content for viewing to a large audience. Behind the scene, just a few members are given permissions to create and contribute to content.
-
-In this sample, we would create a Communication Site.
+- Communication sites are relevant when you need to broadcast a message, tell a story or share content for viewing to a large audience. Behind the scene, just a few members are given permissions to create and contribute to content. In this sample, we would create a Communication Site.
 
 - Head over to sharepoint.com and sign in with your Microsoft account.
+
+![sharepoint-1](https://user-images.githubusercontent.com/59547637/140617473-ef8833d9-e5e0-4f58-bbbf-b6ac08cef1f4.PNG)
+
 - Click on '+ Create site' and select 'Communication site'.
 - Give your site a name and add a description if you wish to at this point. 
     Notice that as you type in the name of your site, it automatically creates a site address and confirms if it is available in your organization. You can also decide to pick another language convenient for you aside English.
 - When completed, click 'Finish'. The result is as shown in the image below.
 
+![sharepoint-2](https://user-images.githubusercontent.com/59547637/140617484-6d6d4964-c382-442a-b6fd-daf3abe04ef4.PNG)
+
 # Creating a SharePoint List
 - Click on '+ New' and in the dropdown, click on 'List'.
 - Click on 'Blank List' and give your SharePoint List a name. If you wish to, you can add a description or decide to leave that for later.
-- Once you have completed this, click on 'Create'.
+- Once you have completed this, click on 'Create'. You would be redirected to a new page which looks like the one in the image below.
+
+![sharepoint-3](https://user-images.githubusercontent.com/59547637/140617532-7d1d4257-cc37-4997-8e5f-a15e30960189.PNG)
+
+# Populating our SharePoint List
+Now it's time to populate our sharepoint list with the required columns for the solution we are building. 
