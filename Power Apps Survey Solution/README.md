@@ -1,5 +1,8 @@
 # Overview
-Microsoft's Power Apps is a low-code development platform that enables you build enterprise applications. But wait! Asides allowing you build applications for your business, Power Apps has other MAD skills.
+Microsoft's Power Apps is a low-code development platform that enables you build enterprise applications (applications created for use within your organization not for consumer consumption) within minutes. But wait! Asides allowing you build applications for your business, Power Apps has other MAD skills.
+
+With Power Apps, it's easy to build applications that run on web, Android and iOS devices. Plus Power Apps provides an easy to use drag-and-drop interface that allows you add different controls (check-box, choice field, buttons, drop-down, or text field), forms, and media (video, image, or audio files) into whatever application you are building.
+
 
 
 # Prerequisites
