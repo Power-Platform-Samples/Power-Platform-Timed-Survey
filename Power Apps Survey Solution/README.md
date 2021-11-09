@@ -9,19 +9,14 @@ We would be connecting Power Apps to our SharePoint List which we created earlie
 
 ![](/Images/powerapps-1.PNG)
 
-- Give your app a name and click on 'Create'. I would  name mine "SurveySolution". After naming the app and clicking create, you would be redirected to Power Apps Studio where you can redesign your application to suite your neeeds.
+- Give your app a name and click on 'Create'. I would  name mine "SurveySolution".
 
 ![](/Images/powerapps-2.PNG)
+
+- You would be redirected to Power Apps Studio where you can redesign your application to suite your neeeds. The next screen would be similar to the image below.
+
+![](/Images/powerapps-3.PNG)
 
 Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
 
 
-
-# Creating a SharePoint List
-- Head over to sharepoint.com and sign in with your Microsoft account,
-- Next click '+ New' and 'List' in the dropdown,
-- Click on 'Blank List', fill in the details
-    * Name: Give your list a name. I'll name mine - SurveySolutions,
-    * Description: You could decide to add a description, but I'll keep mine blank,
-    * Site Navigation: Ensure that
-- Once you have completed this, click on 'Create'
