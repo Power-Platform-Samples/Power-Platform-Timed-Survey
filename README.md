@@ -22,20 +22,20 @@ There are two types of SharePoint sites:
 
 - Head over to sharepoint.com and sign in with your Microsoft account.
 
-![sharepoint-1](https://user-images.githubusercontent.com/59547637/140617473-ef8833d9-e5e0-4f58-bbbf-b6ac08cef1f4.PNG)
+![](Images/sharepoint-1.PNG)
 
 - Click on '+ Create site' and select 'Communication site'.
 - Give your site a name and add a description if you wish to at this point. Notice that as you type in the name of your site, it automatically creates a site address and confirms if it is available in your organization. You can also decide to pick another language convenient for you aside from English.
 - When completed, click 'Finish'. The result is shown in the image below.
 
-![sharepoint-2](https://user-images.githubusercontent.com/59547637/140617484-6d6d4964-c382-442a-b6fd-daf3abe04ef4.PNG)
+![](Images/sharepoint-2.PNG)
 
 # Creating a SharePoint List
 - Click on '+ New' and in the dropdown, click on 'List'.
 - Click on 'Blank List' and give your SharePoint List a name. If you wish to, you can add a description or decide to leave that for later.
 - Once you have completed this, click on 'Create'. You would be redirected to a new page that looks like the one in the image below.
 
-![sharepoint-3](https://user-images.githubusercontent.com/59547637/140617532-7d1d4257-cc37-4997-8e5f-a15e30960189.PNG)
+![](Images/sharepoint-3.PNG)
 
 # Populating our SharePoint List
 Now it's time to populate our SharePoint list with the required columns for the solution we are building. But first, let's look at what our solution would look like.
@@ -57,7 +57,7 @@ Our database needs to have a column for their department and each column for eac
 - Click on 'Save' to save the column.
 - Replicate this process for the other questions. In the end, your SharePoint list should look like the one in the image below.
 
-![sharepoint-4](https://user-images.githubusercontent.com/59547637/140619690-91820d01-134f-4a86-8d21-138a2b2f7a09.PNG)
+![](Images/sharepoint-4.PNG)
 
 Now it's time to start developing an interface for our solution! The first 2 folders show how you can bring this to life as a Power Apps application for employees to interact with or as a virtual agent using Power Virtual Agents and Power Automate.
 
