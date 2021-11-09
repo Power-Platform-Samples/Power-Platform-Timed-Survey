@@ -17,6 +17,11 @@ We would be connecting Power Apps to our SharePoint List which we created earlie
 
 ![](/Images/powerapps-3.PNG)
 
-Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
+Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than 20 seconds and while navigating through just 3 screens.
+* A welcome and get started screen,
+* A screen where they fill in their responses to the survey questions, and
+* A success screen informing them that their response has been submitted.
+
+Let's starting redesigning!
 
 
