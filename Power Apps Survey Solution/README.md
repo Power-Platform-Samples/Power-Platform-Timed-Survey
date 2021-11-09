@@ -13,10 +13,9 @@ We would be connecting Power Apps to our SharePoint List which we created earlie
 
 ![](/Images/powerapps-2.PNG)
 
-Employees at Microsoft have a busy time at work, so it is important we keep this application simple and easy to navigate. We would be editing our design so employees can submit their responses in less than 
-SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
+Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than SharePoint stores and displays information in the form of a list. A SharePoint List is a collection of data that you can share with your team members and people who you've provided access to.
 
-Throuhgout this sample, we would be using the sharepoint list we would create now.
+
 
 # Creating a SharePoint List
 - Head over to sharepoint.com and sign in with your Microsoft account,
