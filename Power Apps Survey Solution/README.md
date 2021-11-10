@@ -3,7 +3,7 @@ Microsoft's Power Apps is a low-code development platform that enables you build
 
 With Power Apps, you can build applications that run on web, Android, and iOS devices. Power Apps provides an easy to use drag-and-drop interface that allows you add different controls (checkbox, choice field, buttons, drop-down, or text field), forms, and media (video, image, or audio files) into whatever application you are building. It also allows you store and connect to external data sources inside your app.
 
-# Building our App from SharePoint
+# Building An App from SharePoint
 We would be connecting Power Apps to our SharePoint List which we created earlier. Here's how you can do that.
 - On your SharePoint List, click on 'Integrate', then 'Power Apps', then 'Create an app'.
 
@@ -17,10 +17,13 @@ We would be connecting Power Apps to our SharePoint List which we created earlie
 
 ![](/Images/powerapps-3.PNG)
 
-Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than 20 seconds and while navigating through just 3 screens.
-* A welcome and get started screen,
-* A screen where they fill in their response to the survey questions, and
-* A success screen informing them that their response has been submitted.
+Employees at Microsoft have a busy time at work, so it is important we keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than 20 seconds while navigating through 3 screens.
 
-Let's starting redesigning!
+LET'S START RE-DESIGNING OUR APP!
 
+# Redesigning our Power Apps Application
+First thing we would do is change the theme of our application. This theme is too popular in Power Apps, we need something unique. To change the theme, go to 'Theme' at the top navbar and pick any theme of your choice. I would pick "Rose". Notice that immediately you pick a theme, the color of your application changes as shown below.
+
+![](/Images/powerapps-4.PNG)
+
+Now let's focus on our application itself. The first screen we want employees to interact with is the welcome screen with a button "Get Started"
