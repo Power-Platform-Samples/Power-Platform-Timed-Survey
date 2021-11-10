@@ -44,4 +44,5 @@ To edit the text, double click on the button and type in "Get Started". To add t
 
 ``` PowerFX
 NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+```
 
