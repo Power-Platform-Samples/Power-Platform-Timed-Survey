@@ -26,4 +26,8 @@ First thing we would do is change the theme of our application. This theme is to
 
 ![](/Images/powerapps-4.PNG)
 
-Now let's focus on our application itself. The first screen we want employees to interact with is the welcome screen with a button "Get Started"
+Now let's focus on our application! The first screen we want employees to interact with is the welcome screen with a clickable button "Get Started". 
+
+To add a new screen, click 'New screen' at the top and select 'Blank' as shown in the image below.
+
+![](/Images/powerapps-5.PNG)
