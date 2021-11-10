@@ -9,7 +9,7 @@ We would be connecting Power Apps to our SharePoint List which we created earlie
 
 ![](/Images/powerapps-1.PNG)
 
-- Give your app a name and click on 'Create'. I would name it "SurveySolution".
+- Give your app a name and click on 'Create'. I would name it **"SurveySolution"**.
 
 ![](/Images/powerapps-2.PNG)
 
@@ -21,7 +21,7 @@ Employees at Microsoft have a busy time at work, so it is important we keep this
 
 LET'S START RE-DESIGNING OUR APP!
 
-# **Redesigning our Power Apps Application**
+# Redesigning our Power Apps Application
 First thing we would do is change the theme of our application. This theme is too popular in Power Apps, we need something unique. To change the theme, go to 'Theme' at the top navbar and pick any theme of your choice. I would pick "Rose". Notice that immediately you pick a theme, the color of your application changes as shown below.
 
 ![](/Images/powerapps-4.PNG)
