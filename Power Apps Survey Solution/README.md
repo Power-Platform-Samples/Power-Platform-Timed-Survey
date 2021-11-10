@@ -32,4 +32,16 @@ To add a new screen, click on 'New screen' at the top and select 'Blank' as show
 
 ![](/Images/powerapps-5.PNG)
 
-Now let's add a button to the 
+Now let's add a button to the new screen. To add a button, click on the '+ sign' in the right sidebar of the page and search for 'Button'. Click on it and it would automatically be added to the page.
+
+I would prefer my button to be close to the bottom of the page, so I would drag it there as shown in the image below.
+
+![](/Images/powerapps-6.PNG)
+
+Next we need to edit the text of the button and add an action which would direct employees to a form on the next screen where they can fill in their response.
+
+To edit the text, double click on the button and type in "Get Started". To add the action, click on the button and 
+
+``` PowerFX
+NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+
