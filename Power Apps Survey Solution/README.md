@@ -21,13 +21,15 @@ Employees at Microsoft have a busy time at work, so it is important we keep this
 
 LET'S START RE-DESIGNING OUR APP!
 
-# Redesigning our Power Apps Application
+# **Redesigning our Power Apps Application**
 First thing we would do is change the theme of our application. This theme is too popular in Power Apps, we need something unique. To change the theme, go to 'Theme' at the top navbar and pick any theme of your choice. I would pick "Rose". Notice that immediately you pick a theme, the color of your application changes as shown below.
 
 ![](/Images/powerapps-4.PNG)
 
 Now let's focus on our application! The first screen we want employees to interact with is the welcome screen with a clickable button "Get Started". 
 
-To add a new screen, click 'New screen' at the top and select 'Blank' as shown in the image below.
+To add a new screen, click on 'New screen' at the top and select 'Blank' as shown in the image below. Immediately you do, a new screen would be added to the application.
 
 ![](/Images/powerapps-5.PNG)
+
+Now let's add a button to the 
