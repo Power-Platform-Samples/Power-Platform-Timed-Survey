@@ -51,3 +51,9 @@ NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
 ```
 
 The code above tells the button to take you to the screen (EditScreen1) with the form (EditForm1) when clicked.
+
+Next, we would need to move this screen to the top so it appears first. To do so, click on the ellipsis by the side of the screen (Screen1) and click on 'Move up' till the screen is the top on the list.
+
+As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first screen, let's design the next screen which is the screen with the form (EditScreen1 screen). Click on the screen to start editing.
+
+Notice from the EditScreen1 screen
