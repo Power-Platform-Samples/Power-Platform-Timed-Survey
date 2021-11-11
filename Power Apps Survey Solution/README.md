@@ -46,7 +46,7 @@ To edit the text in the button, double click the button and type in "Get Started
 
 To add an action, click on the button then copy and paste the code below into the fx section showing false above the screen.
 
-``` PowerFX
+``` Power FX
 NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
 ```
 
@@ -54,10 +54,27 @@ The code above tells the button to take you to the screen (EditScreen1) with the
 
 Next, we would need to move this screen to the top so it appears first. To do so, click on the ellipsis by the side of the screen (Screen1) and click on 'Move up' till the screen is the top on the list.
 
-As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first screen, let's design the next screen which is the screen with the form (EditScreen1). Click on the screen to start editing.
+We would need to create a success screen which our employees would see after filling the form. To add that, click on 'New screen' at the top and select 'Success'. A new screen is immediately added to the application.
 
-Notice from EditScreen1 that the name of the first column is now Title instead of Department. To change that, click on the 'Title' row, hover to the sidebar on the right, click on 'Advanced' then 'Unlock to change properties'. Now change the DisplayName from "Title" to "Department".
+As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first and last screen, let's design the second screen which would display the form (EditScreen1) and collect responses. Click on the screen to start editing.
 
-Also notice that an 'Attachments' column was added to the screen. Just click on the column, and delete it. Our screen should look like the one in the image below.
+Notice from EditScreen1 that the name of the first column is now Title instead of Department. To change that, click on the 'Title' row, hover to the sidebar on the right, click on 'Advanced' then 'Unlock to change properties'. Now change the DisplayName from "Title" to "Department". 
+
+Also notice that an 'Attachments' column was added to the screen. To get rid of it, just click on the column and delete it.
+
+To get our employee response after filling the form, we need to add a submit button. Follow the same steps you followed when creating the "Get Started" button. This time though, change the text from "Get Started" to "Submit".
+
+To add an action, click on the button then copy and paste the code below into the fx section showing false above the screen.
+
+``` Power FX
+SubmitForm(EditForm1) And Navigate(Screen2, ScreenTransition.Cover)
+```
+
+The code above to submit the form immediately the button is clicked and direct us to the success screen w 
+Our screen should look like the one in the image below.
 
 ![](/Images/powerapps-8.PNG)
+
+Now we have our first 2 screens created and designed. We would need to delete all other screens to avoid them from interfering with our application. To delete a screen, click on the ellipsis by the side of the screen name and then 'Delete'.
+
+When you delete the other screens, you would notice an error is flagged in "EditScreen1". Click on the icon then 'Edit in the formula bar' and delete the code. Thereafter you can delete the icon.
