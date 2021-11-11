@@ -70,11 +70,14 @@ To add an action, click on the button then copy and paste the code below into th
 SubmitForm(EditForm1) And Navigate(Screen2, ScreenTransition.Cover)
 ```
 
-The code above to submit the form immediately the button is clicked and direct us to the success screen w 
-Our screen should look like the one in the image below.
+The code above to submit the form immediately the button is clicked and direct us to the success screen we created earlier. Our screen should look like the one in the image below.
 
 ![](/Images/powerapps-8.PNG)
 
-Now we have our first 2 screens created and designed. We would need to delete all other screens to avoid them from interfering with our application. To delete a screen, click on the ellipsis by the side of the screen name and then 'Delete'.
+Now we have created and designed all 3 screens, we would need to delete all other screens which are not part of our application. To delete a screen, click on the ellipsis by the side of the screen name and click 'Delete'.
 
-When you delete the other screens, you would notice an error is flagged in "EditScreen1". Click on the icon then 'Edit in the formula bar' and delete the code. Thereafter you can delete the icon.
+When you delete the other screens, you would notice an error is flagged in "EditScreen1". Click on the icon then 'Edit in the formula bar' and delete the code. Thereafter you can delete every other item. Your screen should look like the one in the image below.
+
+![](/Images/powerapps-9.PNG)
+
+To test your application from the beginning, 
