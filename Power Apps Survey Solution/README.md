@@ -54,6 +54,10 @@ The code above tells the button to take you to the screen (EditScreen1) with the
 
 Next, we would need to move this screen to the top so it appears first. To do so, click on the ellipsis by the side of the screen (Screen1) and click on 'Move up' till the screen is the top on the list.
 
-As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first screen, let's design the next screen which is the screen with the form (EditScreen1 screen). Click on the screen to start editing.
+As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first screen, let's design the next screen which is the screen with the form (EditScreen1). Click on the screen to start editing.
 
-Notice from the EditScreen1 screen
+Notice from EditScreen1 that the name of the first column is now Title instead of Department. To change that, click on the 'Title' row, hover to the sidebar on the right, click on 'Advanced' then 'Unlock to change properties'. Now change the DisplayName from "Title" to "Department".
+
+Also notice that an 'Attachments' column was added to the screen. Just click on the column, and delete it. Our screen should look like the one in the image below.
+
+![](/Images/powerapps-8.PNG)
