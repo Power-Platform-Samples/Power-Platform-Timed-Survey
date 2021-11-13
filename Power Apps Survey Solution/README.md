@@ -102,3 +102,5 @@ You can decide to create a new tab in any of your Microsoft Teams channel and di
 Immediately you do, a new tab is created with app. Your screen should look like the one below.
 
 ![](/Images/powerapps-10.PNG)
+
+Check out the folder "Scheduling with Adaptive Card" to learn more about reminding your employees to take the survey when it is time.
