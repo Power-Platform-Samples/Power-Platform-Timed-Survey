@@ -95,4 +95,10 @@ To publish your app, click on 'File' to open up the file menu. Click on 'Save' a
 
 You can decide to create a new tab in any of your Microsoft Teams channel and direct your employees to that tab using a scheduled adaptive card. Here's what I mean and how to do it:
 
-- Head over to [teams.microsoft.com](https://teams.microsoft.com "Microsoft Teams") and go to the channel you want the tab to be created
+- Head over to your Microsoft Teams tenant and open the channel you want the tab to be created in.
+- In the channel, click on the '+' sign to add a new tab to your existing tabs,
+- Search for Power Apps and select the app you created, then click on 'Save'.
+
+Immediately you do, a new tab is created with app. Your screen should look like the one below.
+
+![](/Images/powerapps-10.PNG)
