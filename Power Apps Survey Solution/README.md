@@ -87,3 +87,12 @@ I tested my application twice and the responses were stored on SharePoint immedi
 ![](/Images/sharepoint-5.PNG)
 
 # Sharing your application on Microsoft Teams with your employees
+CONGRATULATIONS ON SUCCESSFULLY CREATING YOUR APPLICATION! ✨✨🎉
+
+Now it's time to share our application with our employees. Do not forget to publish your application before sharing though. 
+
+To publish your app, click on 'File' to open up the file menu. Click on 'Save' and then 'Publish'. In the prompt that pop out, click on 'Publish this version' and you are good to go. Immediately your app is published, the 'Publish' button changes to 'Share'.
+
+You can decide to create a new tab in any of your Microsoft Teams channel and direct your employees to that tab using a scheduled adaptive card. Here's what I mean and how to do it:
+
+- Head over to [teams.microsoft.com](https://teams.microsoft.com "Microsoft Teams") and go to the channel you want the tab to be created
