@@ -70,7 +70,7 @@ To add an action, click on the button then copy and paste the code below into th
 SubmitForm(EditForm1) And Navigate(Screen2, ScreenTransition.Cover)
 ```
 
-The code above to submit the form immediately the button is clicked and direct us to the success screen we created earlier. Our screen should look like the one in the image below.
+The code above submits the form immediately the button is clicked and direct us to the success screen we created earlier. Our screen should look like the one in the image below.
 
 ![](/Images/powerapps-8.PNG)
 
@@ -80,4 +80,8 @@ When you delete the other screens, you would notice an error is flagged in "Edit
 
 ![](/Images/powerapps-9.PNG)
 
-To test your application from the beginning, 
+To test your application from the beginning, go to the first screen and click on F5. Fill in the details of the form and click submit. When you click submit you are directed to the success screen and immediately, the response is uploaded on SharePoint. 
+
+I tested my application twice and the responses were stored on SharePoint immediately as you can see from the image below.
+
+![](/Images/sharepoint-5.PNG)
