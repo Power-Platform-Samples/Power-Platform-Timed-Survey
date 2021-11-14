@@ -103,4 +103,4 @@ Immediately you do, a new tab is created with app. Your screen should look like 
 
 ![](/Images/powerapps-10.PNG)
 
-Check out the folder "Scheduling with Adaptive Card" to learn more about reminding your employees to take the survey when it is time.
+Check out the folder "Scheduled Reminder with Adaptive Card" to learn more about reminding your employees to take the survey when it is time.
