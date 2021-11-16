@@ -20,7 +20,7 @@ There are two types of SharePoint sites:
 - Team site enables team members to create and edit content and collaborate on projects, events, or ideas. They are restricted to people in your Microsoft 365 Group. Each member of the group has the same permissions.
 - Communication site is relevant when you need to broadcast a message, tell a story, or share content for viewing to a larger audience in our organization. Behind the scene, just a few members are permitted to create and contribute to the content. In this sample, we would create a Communication Site.
 
-- Head over to sharepoint.com and sign in with your Microsoft account.
+- Head over to https://sharepoint.com and sign in with your Microsoft account.
 
 ![](Images/sharepoint-1.PNG)
 
