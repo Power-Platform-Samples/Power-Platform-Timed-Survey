@@ -3,7 +3,7 @@ Microsoft's Power Apps is a low-code development platform that enables you to bu
 
 With Power Apps, you can build applications that run on the web, Android, and iOS devices. Power Apps provides an easy-to-use drag-and-drop interface that allows you to add different controls (checkbox, choice field, buttons, drop-down, or text field), forms, and media (video, image, or audio files) into whatever application you are building. It also allows you to store and connect to external data sources inside your app.
 
-# Building An App from SharePoint
+# Building our app from SharePoint
 We would be connecting Power Apps to our SharePoint List which we created earlier. Here's how you can do that.
 - On your SharePoint List, click on 'Integrate', then 'Power Apps', then 'Create an app'.
 
@@ -21,7 +21,7 @@ Employees at Microsoft have a busy time at work, so we must keep this applicatio
 
 LET'S START RE-DESIGNING OUR APP!
 
-# Redesigning our Power Apps Application
+# Redesigning our Power Apps application
 The first thing we would do is change the theme of our application. This theme is too popular in Power Apps, we need something unique. To change the theme, go to 'Theme' at the top navbar and pick any theme of your choice. I would pick "Rose". Notice that immediately you pick a theme, the color of your application changes as shown below.
 
 ![](/Images/powerapps-4.PNG)
