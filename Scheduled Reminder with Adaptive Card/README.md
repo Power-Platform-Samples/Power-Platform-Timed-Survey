@@ -5,7 +5,7 @@ Microsoft's Power Platform can help make this happen. This sample showcases how 
 
 In this sample, I would show you how to integrate this system into your organization's Teams tenant using either Power Apps or Power Virtual Agents and Power Automate.
 
-# Prerequisites
+# Building our bot with Power Virtual Agents
 Throughout this sample, we would be using SharePoint for storing our data. SharePoint enables you
 -	Build intranet sites and create pages, document libraries, and lists.
 -	Discover, follow, and search for sites, files, and people across your company.
