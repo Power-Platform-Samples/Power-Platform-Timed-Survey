@@ -6,7 +6,7 @@ Using a Power Automate flow connected to your bot, you can collect responses fro
 # Building our bot with Power Virtual Agents
 - Head over to http://aka.ms/TryPVA and sign in with your Microsoft account. Once signed in, you are directed to a page that looks like the image below.
 
-![](Images/powervirtualagents-1.png)
+![](/Images/powervirtualagents-1.PNG)
 
 - First give your bot a name. I would name mine **SurveySolution**. 
 - Then select a language you would like to create your bot in. 
