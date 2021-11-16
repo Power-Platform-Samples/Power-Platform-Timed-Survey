@@ -6,16 +6,16 @@ Using a Power Automate flow connected to your bot, you can collect responses fro
 # Prerequisites
 Before we begin designing our bot, let's take some time to talk about how it is expected to work. 
 
-Since our bot is designed for the survey only, our employees would need to start off the conversation with specific phrases related to taking a survey. For example, take survey, employee survey, start survey, survey, and begin survey. We would be using these as our trigger phrases for now.
+Since our bot is designed for the survey only, our employees would need to start off the conversation with related phrases. These phrases are take survey, employee survey, start survey, survey, and begin survey. We would be using these as our trigger phrases for now.
 
-The bot thanks the employee for taking the survey and asks for their Department. It then asks the survey questions and at each point, it collects the employee's rating per question. At the end of the survey, the entire response is collated and updated on SharePoint in real-time.
+The bot thanks the employee for taking the survey and asks for their department. It asks the survey questions and collects the employee's rating per question. At the end of the survey, each employee's response is collated and updated on SharePoint in real-time.
 
 # Building your Power Virtual Agents Bot
 - Head over to http://aka.ms/TryPVA and sign in with your Microsoft account. Once signed in, you are directed to a page that looks like the image below.
 
 ![](/Images/powervirtualagents-1.PNG)
 
-- First give your bot a name. I would name mine **SurveySolution**. Then select your preferred language. You are also expected to select an environment. I would use my default environment because I also created my Power Apps application in that environment. An environment is a space where your organization can store, manage, and share business data, apps, and flows. Pick the environment you would like to use. When you have filled in all details correctly, click 'Create'. You would be directed to an interface that looks exactly like the one in the image below.
+- First give your bot a name. I would name mine **SurveySolution**. Then select your preferred language. Next you are expected to select an environment. I would use my default environment because I created my Power Apps application in that environment. An environment is a space where your organization can store, manage, and share business data, apps, and flows. After filling in the details, click 'Create'. You would be directed to an interface that looks exactly like the one in the image below.
 
 ![](/Images/powervirtualagents-2.PNG)
 
@@ -35,3 +35,10 @@ A topic defines a how a bot conversation plays out. In this sample, we would cre
 
 - Click on 'Go to authoring canvas'. The authoring canvas is where you define the bot's conversation pattern.
 
+![](/Images/powervirtualagents-5.PNG)
+
+- You would notice that a blank Message node was automatically added. In the empty box, input your welcome message. Mine is below.
+
+``` Text
+Thank you for taking out time to respond to this survey. We totally appreciate you.Be assured that your anonymous review would go a long way in making our organization better.
+```
