@@ -103,4 +103,4 @@ Immediately you do, a new tab is created with app. Your screen should look like 
 
 ![](/Images/powerapps-10.PNG)
 
-Check out ![Scheduled Reminder with Adaptive Card](/Power-Platform-Timed-Survey/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about reminding your employees to take the survey when it is time. 
+Check out ![Scheduled Reminder with Adaptive Card](Power-Platform-Timed-Survey/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about reminding your employees to take the survey when it is time. 
