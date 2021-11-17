@@ -70,4 +70,11 @@ Repeat this process for questions 2 and 3 - question 2 connecting to question 3 
 
 ![](/Images/powervirtualagents-8.PNG)
 
+You can test your bot to make sure it's working well by clicking 'Test your bot' on the left side of the page.
+
 # Collecting Employee's Responses and Updating on SharePoint with Power Automate
+CONGRATULATIONS ON SUCCESSFULLY BUILDING YOUR BOT! Now let's connect our bot to our SharePoint using Power Automate.
+
+We start off by adding a new node to our bot after the thank you message. Remember how to add a node? Just click on the '+' sign. This time we would pick 'Call an action' then 'Create a flow'. Clicking 'Create a flow' would open up Power Automate in a new window as shown below.
+
+![](/Images/powervirtualagents-9.PNG)
