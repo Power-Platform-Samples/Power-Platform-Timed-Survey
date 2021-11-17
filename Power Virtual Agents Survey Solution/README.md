@@ -65,3 +65,10 @@ After collecting the response to that question, the bot is expected to ask the s
 Now we need to connect all condition blocks earlier to the second question. We do this so that whatever the response to the first question is, the second question would still be asked. To do this, click on the '+' sign and instead of adding a node, click on the small circle and connect to the second question block. Repeat this process for all conditions. Your flow should look like the image below.
 
 ![](/Images/powervirtualagents-7.PNG)
+
+Repeat this process for questions 2 and 3 - question 2 connecting to question 3 and question 3 connecting to question 4. After the 4th question, our bot should thank the employee for taking out time to fill the survey. Add a 'Show a message' node to the flow and type in the message below.
+``` Text
+Thank you for filling this survey. Enjoy your week!
+```
+
+# Collecting Employee's Responses and Updating on SharePoint with Power Automate
