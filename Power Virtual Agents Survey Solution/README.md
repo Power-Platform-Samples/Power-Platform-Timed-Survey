@@ -40,5 +40,8 @@ A topic defines a how a bot conversation plays out. In this sample, we would cre
 - You would notice that a blank Message node was automatically added. In the empty box, input your welcome message. Mine is below.
 
 ``` Text
-Thank you for taking out time to respond to this survey. We totally appreciate you.Be assured that your anonymous review would go a long way in making our organization better.
+Thank you for taking out time to respond to this survey. We totally appreciate you!
+Be assured that your anonymous review would go a long way in making our organization better.
 ```
+
+- Next, add another node by clicking the '+' icon. We need to add a message telling the employee a little bit about the survey.
