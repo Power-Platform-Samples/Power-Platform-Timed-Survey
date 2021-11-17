@@ -34,27 +34,20 @@ A topic defines a how a bot conversation plays out. In this sample, we would cre
 ![](/Images/powervirtualagents-4.PNG)
 
 - Click on 'Go to authoring canvas'. The authoring canvas is where you define the bot's conversation pattern.
-
-![](/Images/powervirtualagents-5.PNG)
-
 - You would notice that a blank Message node was automatically added. In the empty box, input your welcome message. Mine is below.
-
 ``` Text
 Thank you for taking out time to respond to this survey. We totally appreciate you!
 The goal of this short survey is to ensure that you are enjoying being part of our organization. Please fill only once!
 ```
-
 - Next, add another node by clicking the '+' icon and the 'Show a message'. We need to add a message telling the employee a little bit about the survey. Notice that a new empty text box is added to the flow. In that box, I would input the details below.
-
 ``` Text
 This survey consist of 4 questions.
 For each question, you are expected to tell us how you feel. 0 stands for lowest and 5 for highest.
 Be assured that your anonymous responses would go a long way in making our organization better.
 ```
-
 - Next, we would need to add each question and the option. To do so, click on the '+' icon again, but this time we would click on 'Ask a question'. Notice that as you do, a different type of block is added to the flow.
 
-![](/Images/powervirtualagents-6.PNG)
+![](/Images/powervirtualagents-5.PNG)
 
 - Fill in the details of the block correctly.
     * Ask a question: Our first question is "Do you feel good about your current work/life balance?", so we would input it in that box.
@@ -64,6 +57,6 @@ Be assured that your anonymous responses would go a long way in making our organ
 
 - Notice too that beneath the question block, multiple condition blocks have been added. A separate condition block was created for each option as shown in the image below.
 
-![](/Images/powervirtualagents-7.PNG)
+![](/Images/powervirtualagents-6.PNG)
 
 - Next, 
