@@ -66,9 +66,8 @@ Now we need to connect all condition blocks earlier to the second question. We d
 
 ![](/Images/powervirtualagents-7.PNG)
 
-Repeat this process for questions 2 and 3 - question 2 connecting to question 3 and question 3 connecting to question 4. After the 4th question, our bot should thank the employee for taking out time to fill the survey. Add a 'Show a message' node to the flow and type in the message below.
-``` Text
-Thank you for filling this survey. Enjoy your week!
-```
+Repeat this process for questions 2 and 3 - question 2 connecting to question 3 and question 3 connecting to question 4. After the 4th question, our bot should thank the employee for taking out time to fill the survey. To make this happen, add a 'Show a message' node to the flow, type in a short thank you message, and connect all conditions to the message as shown in the image below.
+
+![](/Images/powervirtualagents-8.PNG)
 
 # Collecting Employee's Responses and Updating on SharePoint with Power Automate
