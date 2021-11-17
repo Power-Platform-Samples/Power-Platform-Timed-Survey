@@ -41,7 +41,15 @@ A topic defines a how a bot conversation plays out. In this sample, we would cre
 
 ``` Text
 Thank you for taking out time to respond to this survey. We totally appreciate you!
-Be assured that your anonymous review would go a long way in making our organization better.
+The goal of this short survey is to ensure that you are enjoying being part of our organization. Please fill only once!
 ```
 
-- Next, add another node by clicking the '+' icon. We need to add a message telling the employee a little bit about the survey.
+- Next, add another node by clicking the '+' icon and the 'Show a message'. We need to add a message telling the employee a little bit about the survey. Notice that a new empty text box is added to the flow. In that box, I would input the details below.
+
+``` Text
+The survey consist of 4 questions.
+For each question, you are expected to tell us how you feel. 0 stands for lowest and 5 for highest.
+Be assured that your anonymous responses would go a long way in making our organization better.
+```
+
+
