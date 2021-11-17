@@ -6,15 +6,10 @@ With Power Apps, you can build applications that run on the web, Android, and iO
 # Building our app from SharePoint
 We would be connecting Power Apps to our SharePoint List which we created earlier. Here's how you can do that.
 - On your SharePoint List, click on 'Integrate', then 'Power Apps', then 'Create an app'.
-
 ![](/Images/powerapps-1.PNG)
-
 - Give your app a name and click on 'Create'. I would name it **"SurveySolution"**.
-
 ![](/Images/powerapps-2.PNG)
-
 - You would be redirected to Power Apps Studio where you can redesign your application to suit your needs. The next screen would be like the image below.
-
 ![](/Images/powerapps-3.PNG)
 
 Employees at Microsoft have a busy time at work, so we must keep this application as simple and easy to navigate as possible. We would be editing our design so employees can submit their responses in less than 20 seconds while navigating through 3 screens.
