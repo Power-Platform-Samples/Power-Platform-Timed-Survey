@@ -60,7 +60,7 @@ Be assured that your anonymous responses would go a long way in making our organ
     * Ask a question: Our first question is "Do you feel good about your current work/life balance?", so we would input it in that box.
     * Identity: This is a multiple choice question as participants can select from 0 to 5.
     * Options for user: Input the different options. In our case, it would be 0 to 5.
-    * Save response as: It is important we rename our bot variable for each question, so it's easy to reuse them. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this first question to question1.
+    * Save response as: It is important we rename our bot variable for each question, so it's easy to reuse them. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this first question to question1. Bot variables are global variables as they are used to store information that do not change from topic to topic.
 
 - Notice too that beneath the question block, multiple condition blocks have been added. A separate condition block was created for each option as shown in the image below.
 
