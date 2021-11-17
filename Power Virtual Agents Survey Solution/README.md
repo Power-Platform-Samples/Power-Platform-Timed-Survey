@@ -78,3 +78,5 @@ CONGRATULATIONS ON SUCCESSFULLY BUILDING YOUR BOT! Now let's connect our bot to 
 We start off by adding a new node to our bot after the thank you message. Remember how to add a node? Just click on the '+' sign. This time we would pick 'Call an action' then 'Create a flow'. Clicking 'Create a flow' would open up Power Automate in a new window as shown below.
 
 ![](/Images/powerautomate-1.PNG)
+
+Notice two steps have been added to your Power Automate flow already. The first step 
