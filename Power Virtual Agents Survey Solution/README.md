@@ -47,9 +47,23 @@ The goal of this short survey is to ensure that you are enjoying being part of o
 - Next, add another node by clicking the '+' icon and the 'Show a message'. We need to add a message telling the employee a little bit about the survey. Notice that a new empty text box is added to the flow. In that box, I would input the details below.
 
 ``` Text
-The survey consist of 4 questions.
+This survey consist of 4 questions.
 For each question, you are expected to tell us how you feel. 0 stands for lowest and 5 for highest.
 Be assured that your anonymous responses would go a long way in making our organization better.
 ```
 
+- Next, we would need to add each question and the option. To do so, click on the '+' icon again, but this time we would click on 'Ask a question'. Notice that as you do, a different type of block is added to the flow.
 
+![](/Images/powervirtualagents-6.PNG)
+
+- Fill in the details of the block correctly.
+    * Ask a question: Our first question is "Do you feel good about your current work/life balance?", so we would input it in that box.
+    * Identity: This is a multiple choice question as participants can select from 0 to 5.
+    * Options for user: Input the different options. In our case, it would be 0 to 5.
+    * Save response as: It is important we rename our bot variable for each question, so it's easy to reuse them. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this first question to question1.
+
+- Notice too that beneath the question block, multiple condition blocks have been added. A separate condition block was created for each option as shown in the image below.
+
+![](/Images/powervirtualagents-7.PNG)
+
+- Next, 
