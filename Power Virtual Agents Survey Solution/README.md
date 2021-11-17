@@ -60,6 +60,8 @@ Notice that beneath the question block, multiple condition blocks have been adde
 
 ![](/Images/powervirtualagents-6.PNG)
 
-After collecting the response to that question, the bot asks the second question. To make this happen, we need to add a new node to one of the conditions. To do so, click on the '+' sign and then 'Ask a question'.
+After collecting the response to that question, the bot is expected to ask the second question. To make this happen, we need to add a new node to one of the conditions. Click on the '+' sign and then 'Ask a question'. Fill in the block correctly. For 'Ask a question', input the next question. 'Identity' and 'Options for user' is the same throughout as above. For 'Save response as', give each question a new variable name - question2 for the second question, question3 for the third question and question4 for the fourth question.
 
-- we need to connect all condition blocks together.
+Now we need to connect all condition blocks earlier to the second question. We do this so that whatever the response to the first question is, the second question would still be asked. To do this, click on the '+' sign and instead of adding a node, click on the small circle and connect to the second question block. Repeat this process for all conditions. Your flow should look like the image below.
+
+![](/Images/powervirtualagents-7.PNG)
