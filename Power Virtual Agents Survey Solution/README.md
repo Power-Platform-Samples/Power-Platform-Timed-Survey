@@ -86,12 +86,18 @@ We start off by adding a new node to our bot after the thank you message. Rememb
 
 ![](/Images/powerautomate-1.PNG)
 
-Notice that two steps have been automatically added to our Power Automate flow. 
+Notice that two actions have been automatically added to our Power Automate flow. 
 
-In the first step, Power Automate is establishing a connection with our Power Virtual Agent bot. We need to add each question the bot would ask or we would need response to as an input. 
+In the first action, Power Automate is establishing a connection with our Power Virtual Agent bot. We need to add each question the bot would ask or we would need response to as an input. 
 
 To add the questions as inputs, click on '+ Add an input', then 'Text'. Notice that when you do, a new input box is added. Repeat this step for all the questions and fill in the details correctly.
 * *Input:* Use the same variable name you assigned to each question in the bot as the name of the input. For example, Department for the question to identify which department in your organization the employee works with, Question1 for the first question, Question2 for the second question, Question3 for the third question, and Question4 for the fourth question.
-* *Please enter your input:* Here you would enter each question as input. Ensure you input the questions as arranged on SharePoint and in your Power Virtual Agent bot.
+* *Please enter your input:* Enter each question as input. Ensure you input the questions as arranged on SharePoint and in your Power Virtual Agent bot.
 
 ![](/Images/powerautomate-2.PNG)
+
+The second action automatically added to our flow returns the values of the first action to Power Virtual Agents. We would need to create an output for each input entered in the first action. Repeat this step for all the inputs and fill in the details correctly.
+* *Enter title:* Enter each question as input. Ensure you input the questions as arranged on SharePoint and in your Power Virtual Agent bot.
+* *Enter a value to respond:* Click on 'Add dynamic content' and the pop up, select the input for each question.
+
+![](/Images/powerautomate-3.PNG)
