@@ -55,7 +55,7 @@ We would need to create a success screen which our employees would see after fil
 
 As mentioned at the beginning, we want our employees to only interact with 3 screens. We have successfully designed the first and last screen, let's design the second screen which would display the form (EditScreen1) and collect responses. Click on the screen to start editing.
 
-Notice from EditScreen1 that the name of the first column is now Title instead of Department. To change that, click on the 'Title' row, hover to the sidebar on the right, click on 'Advanced' then ‘Unlock to change properties’. Now change the DisplayName from "Title" to "Department". Also notice that an 'Attachments' column was added to the screen. To get rid of it, just click on the column and delete it.
+Notice from EditScreen1 that the name of the first column is now Title instead of Department. To change that, click on the 'Title' row, hover to the sidebar on the right, click on 'Advanced' then ‘Unlock to change properties’. Now change the DisplayName from "Title" to "***Department***". Also notice that an 'Attachments' column was added to the screen. To get rid of it, just click on the column and delete it.
 
 To get our employee response after filling the form, we need to add a submit button. Follow the same steps you followed when creating the "Get Started" button. This time though, change the text from "Get Started" to "Submit".
 
