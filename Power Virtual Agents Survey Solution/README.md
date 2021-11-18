@@ -123,8 +123,8 @@ Click on 'Site Address' and select the SharePoint site you created your SharePoi
 * *Title:* Click on 'Add dynamic content' and select the variable name we used to store the question "Which department do you work with?" - *department*. This would pick the response from that question and add it to that column.
 * *Do you feel good about your current work/life balance?:* In our bot, this was the first question. To add this as an output, click on the textbox, then 'Enter custom value'. Click  the dynamic content *question1*
 * *Do you feel like a true part of your team?:* Click on the textbox then 'Enter custom value'. Select the variable *question2*
-* *Do you feel like you are heading in the right direction as a team?:* Follow the same process above, but this time select the dynamic content *question2*
-* *Do you feel energized about your job?:* Follow the same process above, but this time select the dynamic content *question3*
+* *Do you feel like you are heading in the right direction as a team?:* Follow the same process above, but this time select the dynamic content *question3*
+* *Do you feel energized about your job?:* Follow the same process above, but this time select the dynamic content *question4*
 
 At the end, your flow should look like the image below.
 
