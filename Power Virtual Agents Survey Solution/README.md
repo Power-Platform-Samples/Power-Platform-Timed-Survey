@@ -50,8 +50,8 @@ Before asking our questions, we need to identify which department the employee w
 
 Fill in the details correctly.
 * Ask a question: The question we need an answer to is "Which department are you taking this survey from?", so we would input it in that box.
-* Identity: This is a direct question, so we would pick user's entire response.
-* Save response as: It is important we rename our bot variable for each question, so it's easy to reuse them. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this question to ***department***. Bot variables are global variables as they are used to store information that do not change from topic to topic.
+* Identity: This is a direct question, so we would pick the employee's entire response.
+* Save response as: It is important we rename our bot variable for each question, so it's easy to reuse. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this question to ***department***. Bot variables are global variables as they are used to store information that do not change from topic to topic.
 
 ![](/Images/powervirtualagents-5.PNG)
 
@@ -61,13 +61,13 @@ Fill in the details of the block correctly.
 * Ask a question: Our first question is "Do you feel good about your current work/life balance?", so we would input it in that box.
 * Identity: Unlike the question about department, this is a multiple choice question as participants have to select from 0 to 5.
 * Options for user: Input the different options. In our case, it would be 0 to 5.
-* Save response as: Change the bot variable name for this first question to ***question1***.
+* Save response as: Change the bot variable name for the first question to ***question1***.
 
 Notice that beneath the question block, multiple condition blocks have been added. A separate condition block was created for each option as shown in the image below.
 
 ![](/Images/powervirtualagents-6.PNG)
 
-After collecting the response to that question, the bot is expected to ask the second question. To make this happen, we need to add a new node to one of the conditions. Click on the '+' sign and then 'Ask a question'. Fill in the block correctly. For 'Ask a question', input the next question. 'Identity' and 'Options for user' is the same throughout as above. For 'Save response as', give each question a new variable name - ***question2*** for the second question, *question3* for the third question and question4 for the fourth question.
+After collecting the response to that question, the bot is expected to ask the second question. To make this happen, we need to add a new node to one of the conditions. Click on the '+' sign and then 'Ask a question'. Fill in the block correctly. For 'Ask a question', input the next question. 'Identity' and 'Options for user' is the same throughout as above. For 'Save response as', give each question a new variable name - ***question2*** for the second question, ***question3*** for the third question and ***question4*** for the fourth question.
 
 Now we need to connect all condition blocks earlier to the second question. We do this so that whatever the response to the first question is, the second question would still be asked. To do this, click on the '+' sign and instead of adding a node, click on the small circle and connect to the second question block. Repeat this process for all conditions. Your flow should look like the image below.
 
@@ -88,7 +88,7 @@ We start off by adding a new node to our bot after the thank you message. Rememb
 
 Notice that two steps have been automatically added to our Power Automate flow. In the first step, Power Automate is establishing a connection with our Power Virtual Agent bot. We need to add each question the bot would ask or we would need response to as an input. 
 
-To add the questions as inputs, click on '+ Add an input', then 'Text'. Notice that when you do, a new input box is added. Fill in the details correct as shown below:
-* Input: Use the same variable name you assigned to each question in the bot as the name of the input. For example, Question1 for the first question and Question2 for the second question.
+To add the questions as inputs, click on '+ Add an input', then 'Text'. Notice that when you do, a new input box is added. Repeat this step for all the questions and fill in the details correctly.
+* Input: Use the same variable name you assigned to each question in the bot as the name of the input. For example, Department for the question to identify which department in your organization the employee works with, Question1 for the first question, Question2 for the second question, Question3 for the third question, and Question4 for the fourth question.
 * Please enter your input: Here you would enter each question as input. Ensure you input the questions as arranged on SharePoint and in your Power Virtual Agent bot.
 
