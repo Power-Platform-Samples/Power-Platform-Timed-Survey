@@ -49,7 +49,7 @@ Be assured that your anonymous responses would go a long way in making our organ
 Before asking our questions, we need to identify which department the employee works at. This detail would go along way in helping us position our organization properly. To add this question, click on the '+' icon again, and this time click on 'Ask a question'. Notice that as you do, a different type of block is added to the flow.
 
 Fill in the details correctly.
-* Ask a question: The question we need an answer to is "Which department are you taking this survey from?", so we would input it in that box.
+* Ask a question: The question we need an answer to is "Which department do you work with?", so we would input it in that box.
 * Identity: This is a direct question, so we would pick the employee's entire response.
 * Save response as: It is important we rename our bot variable for each question, so it's easy to reuse. Click on the pencil icon and in the column that pops out by the side, change the bot variable name for this question to ***department***. Bot variables are global variables as they are used to store information that do not change from topic to topic.
 
@@ -86,9 +86,12 @@ We start off by adding a new node to our bot after the thank you message. Rememb
 
 ![](/Images/powerautomate-1.PNG)
 
-Notice that two steps have been automatically added to our Power Automate flow. In the first step, Power Automate is establishing a connection with our Power Virtual Agent bot. We need to add each question the bot would ask or we would need response to as an input. 
+Notice that two steps have been automatically added to our Power Automate flow. 
+
+In the first step, Power Automate is establishing a connection with our Power Virtual Agent bot. We need to add each question the bot would ask or we would need response to as an input. 
 
 To add the questions as inputs, click on '+ Add an input', then 'Text'. Notice that when you do, a new input box is added. Repeat this step for all the questions and fill in the details correctly.
 * Input: Use the same variable name you assigned to each question in the bot as the name of the input. For example, Department for the question to identify which department in your organization the employee works with, Question1 for the first question, Question2 for the second question, Question3 for the third question, and Question4 for the fourth question.
 * Please enter your input: Here you would enter each question as input. Ensure you input the questions as arranged on SharePoint and in your Power Virtual Agent bot.
 
+![](/Images/powerautomate-2.PNG)
