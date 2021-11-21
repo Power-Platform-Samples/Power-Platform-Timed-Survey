@@ -1,9 +1,11 @@
 # Overview
-At Microsoft, we cherish and care about our employees. They are an integral part of Microsoft. They are Microsoft's greatest asset. At all times, we ensure that their voices are heard. To understand what needs to change within the organization, Microsoft surveys and speaks with its employees about the current state of work. They listen to the inputs, reviews, and suggestions of employees. This culture is one of the most surprising reasons why Microsoft's stock will keep rising. Would you love to embed this culture in your organization and get reviews from your employees at frequent intervals?
+CONGRATULATIONS ON GETTING THIS FAR! By now you must have successfully built and connected your Power Apps application or Power Virtual Agent bot to SharePoint. All data collected from the responses of our employees is stored on SharePoint. Data is knowledge. Good data  allows organizations to more effectively determine the cause of problems. To be able to communicate business insights in a constructive manner, we need to make use of visualizations.
 
-Microsoft's Power Platform can help make this happen. This sample showcases how you can integrate an automated employee review system in your organization using either Power Apps or Power Virtual Agents. Your automated system would share the survey with employees in your organization at the scheduled time and date, collect all responses, and upload them in real-time on SharePoint. From SharePoint, you can visualize the results to gain confirmed insights for growing your organization using Power BI.
+Power BI is a Data Visualization and Business Intelligence tool that converts data from different data sources including SharePoint to interactive dashboards and BI reports. It is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Power BI let's you easily connect to your data sources, visualize and discover what's important, and share that with anyone or everyone you want.
 
-In this sample, I would show you how to integrate this system into your organization's Teams tenant using either Power Apps or Power Virtual Agents and Power Automate.
+Power BI consists of several elements that all work together. In this sample, we would be focusing on 2 of them:
+* Power BI service: Power BI service or Power BI is a cloud-based service, or software as a service (SaaS) online. You can build dashboards that help you keep a finger on the pulse of your business. It’s designed for light report editing and collaboration.
+* Power BI Desktop: 
 
 # Prerequisites
 Throughout this sample, we would be using SharePoint for storing our data. SharePoint enables you
