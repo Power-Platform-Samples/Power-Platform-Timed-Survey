@@ -115,7 +115,7 @@ The second action automatically added to our Power Automate flow returns the val
 
 ![](/Images/powerautomate-5.PNG)
 
-Our Power Virtual Agent Flow would collect the response from the bot using the variable name assigned and use it as an output which would be used to create an item on our SharePoint list.
+Our Power Virtual Agent flow would collect the response from the bot using the variable name assigned and use it as an output which would be used to create an item on our SharePoint list.
 
 To automatically create an item on our SharePoint list, we would need to add a new action to our Power Automate flow. Head over to Power Automate and click '+ New step', search for "Create item (SharePoint)" and select. If you haven't already, you would need to sign in to SharePoint to create a connection.
 
@@ -134,8 +134,12 @@ Your SharePoint List would check for the output to those questions gotten from t
 
 When you completely respond to all questions and have received the thank you message, you would notice that a new response would be automatically added to SharePoint.
 
-HOLLA! 💃🕺✨✨ CONGRATULATIONS ON REACHING THIS MILESTONE!
+HOLLA! 💃🕺✨✨ CONGRATULATIONS ON REACHING THIS MILESTONE! 
 
 You can now publish your Power Virtual Agent bot by clicking 'Publish' in the left navbar. Then in the page that opens up, click Publish.
 
-But wait! How do you visualize all of these data stored on SharePoint with Power BI? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
+But we would need to publish our Power VIrtual Agent bot on Microsoft Teams so our employee can access it
+
+But wait! How do you visualize all of the data stored on SharePoint? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
+
+Check out [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about sending out scheduled reminders to your employees when it's time to take the survey.
