@@ -16,6 +16,10 @@ Click on 'Integrate' in the top navbar of the screen, then 'Power BI' and 'Visua
 
 ![](/Images/sharepoint-7.PNG)
 
+Immediately you do, Power BI Online opens up in a new window. If you haven't already, you would be prompetd to sign in. If you have signed in, your screen should be similar to the one in the image below.
+
+![](/Images/powerbi-1.PNG)
+
 # Visualizing data with Power BI Desktop
 - Head over to sharepoint.com and sign in with your Microsoft account,
 - Next click '+ New' and 'List' in the dropdown,
