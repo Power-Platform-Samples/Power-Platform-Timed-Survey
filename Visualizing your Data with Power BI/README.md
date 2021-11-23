@@ -20,11 +20,14 @@ Immediately you do, Power BI Online opens up in a new window. If you haven't alr
 
 ![](/Images/powerbi-1.PNG)
 
+Data visualizations like the ones in the image above should give us clear idea of what the information we are trying to pass across to our audience is and what it means. This makes the data more natural for the human mind to comprehend and therefore makes it easier to identify trends and patterns which would improve your organization. The visualization above though doesn't totally meet this criteria.
+
+In this documentation, I would not show you how to work with Power BI. 😢😢 But I've got something for you. I would be sharing 3 links that would help you. Check out
+
+- [Use visuals in Power BI](https://docs.microsoft.com/en-us/learn/modules/visuals-in-power-bi/)
+- [Visualize data in Power BI](https://docs.microsoft.com/en-us/learn/paths/visualize-data-power-bi/)
+- [Data analysis in Power BI](https://docs.microsoft.com/en-us/learn/paths/perform-analytics-power-bi/)
+
+Take some time to explore the content of these links. Now let's see how you can visualize your data with Power BI Desktop, just in case you are more convenient with the desktop version.
+
 # Visualizing data with Power BI Desktop
-- Head over to sharepoint.com and sign in with your Microsoft account,
-- Next click '+ New' and 'List' in the dropdown,
-- Click on 'Blank List', fill in the details
-    * Name: Give your list a name. I'll name mine - SurveySolutions,
-    * Description: You could decide to add a description, but I'll keep mine blank,
-    * Site Navigation: Ensure that
-- Once you have completed this, click on 'Create'
