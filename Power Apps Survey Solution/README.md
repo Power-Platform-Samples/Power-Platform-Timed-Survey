@@ -96,4 +96,6 @@ Immediately you do, a new tab is created with app. Your screen should look like 
 
 ![](/Images/powerapps-10.PNG)
 
-Check out [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about reminding your employees to take the survey when it is time. 
+Check out [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about sending out scheduled reminders to your employees when it's time to take the survey.
+
+How do you visualize all of the data stored on SharePoint? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.

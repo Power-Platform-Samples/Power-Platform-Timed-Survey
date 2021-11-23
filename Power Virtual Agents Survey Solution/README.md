@@ -115,7 +115,7 @@ The second action automatically added to our Power Automate flow returns the val
 
 ![](/Images/powerautomate-5.PNG)
 
-Our Power Virtual Agent Flow would collect the response from the bot using the variable name assigned and use it as an output which would be used to create an item on our SharePoint list.
+Our Power Virtual Agent flow would collect the response from the bot using the variable name assigned and use it as an output which would be used to create an item on our SharePoint list.
 
 To automatically create an item on our SharePoint list, we would need to add a new action to our Power Automate flow. Head over to Power Automate and click '+ New step', search for "Create item (SharePoint)" and select. If you haven't already, you would need to sign in to SharePoint to create a connection.
 
@@ -134,8 +134,30 @@ Your SharePoint List would check for the output to those questions gotten from t
 
 When you completely respond to all questions and have received the thank you message, you would notice that a new response would be automatically added to SharePoint.
 
-HOLLA! 💃🕺✨✨ CONGRATULATIONS ON REACHING THIS MILESTONE!
+HOLLA! 💃🕺✨✨ CONGRATULATIONS ON REACHING THIS MILESTONE! 
 
 You can now publish your Power Virtual Agent bot by clicking 'Publish' in the left navbar. Then in the page that opens up, click Publish.
 
-But wait! How do you visualize all of these data stored on SharePoint with Power BI? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
+We would need to share our Power Virtual Agent bot on Microsoft Teams so our employee can access it. To do so, head over to 'Manage' and click on 'Channels'. In the new page that opens up, click on 'Microsoft Teams'. Your page should look like the one in the image below.
+
+![](/Images/powervirtualagents-9.PNG)
+
+Click on 'Turn on Teams' so your bot would be turned on. To give everyone in your organization access to the bot, click on 'Availability options'. Select 'Show to everyone in my org' and 'Submit for admin approval' then 'Yes' to complete submission to administators of your organization's Microsoft Teams if you are not one.
+
+![](/Images/powervirtualagents-10.PNG)
+
+If you are admin in your organization already, head over to [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/dashboard) to activate the submitted bot. Click on 'Teams apps' then 'Manage apps' in the left navbar. Your screen should look like the one below.
+
+![](/Images/powervirtualagents-11.PNG)
+
+Notice that there is 1 submitted custom app pending approval. Search for the name you used when saving your PVA bot. I saved mine as "SurveySolution" so I would search for it using that name. Click on "SurveySolution" when the name pops up.
+
+![](/Images/powervirtualagents-12.PNG)
+
+Click on the dropdown in "Publishing status" and switch status from 'Submitted' to 'Publish', then click 'Publish'. 
+
+When published, your employees can head over to the 'Apps' section of Microsoft Teams under "Built for your org", find the bot and add.
+
+In the section [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) I would show you how to send out scheduled reminders to your employees when it's time to take the survey.
+
+To learn how to visualize data stored on SharePoint, check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md).
