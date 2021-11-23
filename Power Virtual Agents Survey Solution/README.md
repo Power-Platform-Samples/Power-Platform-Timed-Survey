@@ -138,8 +138,26 @@ HOLLA! 💃🕺✨✨ CONGRATULATIONS ON REACHING THIS MILESTONE!
 
 You can now publish your Power Virtual Agent bot by clicking 'Publish' in the left navbar. Then in the page that opens up, click Publish.
 
-But we would need to publish our Power VIrtual Agent bot on Microsoft Teams so our employee can access it
+We would need to share our Power Virtual Agent bot on Microsoft Teams so our employee can access it. To do so, head over to 'Manage' and click on 'Channels'. In the new page that opens up, click on 'Microsoft Teams'. Your page should look like the one in the image below.
 
-But wait! How do you visualize all of the data stored on SharePoint? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
+![](/Images/powervirtualagents-9.PNG)
 
-Check out [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about sending out scheduled reminders to your employees when it's time to take the survey.
+Click on 'Turn on Teams' so your bot would be turned on. To give everyone in your organization access to the bot, click on 'Availability options'. Select 'Show to everyone in my org' and 'Submit for admin approval' then 'Yes' to complete submission to administators of your organization's Microsoft Teams if you are not one.
+
+![](/Images/powervirtualagents-10.PNG)
+
+If you are admin in your organization already, head over to [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/dashboard) to activate the submitted bot. Click on 'Teams apps' then 'Manage apps' in the left navbar. Your screen should look like the one below.
+
+![](/Images/powervirtualagents-11.PNG)
+
+Notice that there is 1 submitted custom app pending approval. Search for the name you used when saving your PVA bot. I saved mine as "SurveySolution" so I would search for it using that name. Click on "SurveySolution" when the name pops up.
+
+![](/Images/powervirtualagents-12.PNG)
+
+Click on the dropdown in "Publishing status" and switch status from 'Submitted' to 'Publish', then click 'Publish'. 
+
+When published, your employees can head over to the 'Apps' section of Microsoft Teams under "Built for your org", find the bot and add.
+
+In the section [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) I would show you how to send out scheduled reminders to your employees when it's time to take the survey.
+
+To learn how to visualize data stored on SharePoint, check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md).
