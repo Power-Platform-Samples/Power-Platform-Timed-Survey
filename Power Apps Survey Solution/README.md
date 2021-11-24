@@ -84,18 +84,28 @@ CONGRATULATIONS ON SUCCESSFULLY CREATING YOUR APPLICATION! ✨✨🎉
 
 Now it's time to share our application with our employees. Do not forget to publish your application before sharing though. 
 
-To publish your app, click on 'File' to open up the file menu. Click on 'Save' and then 'Publish'. In the prompt that pop out, click on 'Publish this version' and you are good to go. Immediately your app is published, the 'Publish' button changes to 'Share'.
-
-You can decide to create a new tab in any of your Microsoft Teams channel and direct your employees to that tab using a scheduled adaptive card. Here's what I mean and how to do it:
-
-- Head over to your Microsoft Teams tenant and open the channel you want the tab to be created in.
-- In the channel, click on the '+' sign to add a new tab to your existing tabs,
-- Search for Power Apps and select the app you created, then click on 'Save'.
-
-Immediately you do, a new tab is created with app. Your screen should look like the one below.
+To publish your app, click on 'File' to open up the file menu. Click on 'Save' and then 'Publish'. In the prompt that pop out, click on 'Publish this version' and you are good to go. Immediately your app is published, the 'Publish' button changes to 'Share'. Click on 'Share'.
 
 ![](/Images/powerapps-10.PNG)
 
+Click on 'Cancel' as we would like to share with all employees on our Microsoft Teams tenant and not just in a specific channel.
+
+![](/Images/powerapps-11.PNG)
+
+Click on 'Add to Teams'. In the dialog that pops out at the right, click on 'Add to Teams'. 
+
+Before clicking 'Add to Teams', don't forget to edit the description of your application so employees understand what it is about and what it does. You can do so by clicking 'Edit details'. In the page that opens up, click 'File' in the top navbar, then 'Settings' in the left navbar, and edit whatever detail you need to.
+
+When you have completed editing the details, head to the former page and click on 'Add to Teams'. You would be directed to Microsoft Teams where you can decide to add your app to a team or a chat.
+
+![](/Images/microsoftteams-1.PNG)
+
+Click on the dropdown icon beside 'Add' and select 'Add to a team'. 
+
+Next, select the specific team and channel you want the app to be added to. It is required that you select a general channel which can be accessed by everyone in your organization. For me, I would select the team *MPowerSeries* and channel *General*. When completed, click 'Set up a tab'.
+
+The next dialog shows you the description of the application you are adding. Click on 'Save' to set up the tab for your application. CONGRATULATIONS!
+
 Check out [Scheduled Reminder with Adaptive Card](/Scheduled%20Reminder%20with%20Adaptive%20Card/README.md) to learn more about sending out scheduled reminders to your employees when it's time to take the survey.
 
-How do you visualize all of the data stored on SharePoint? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
+How do you visualize all the data stored on SharePoint? Check out [Visualizing your Data with Power BI](/Visualizing%20your%20Data%20with%20Power%20BI/README.md) to learn about this.
