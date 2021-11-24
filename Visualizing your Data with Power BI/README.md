@@ -31,3 +31,34 @@ In this documentation, I would not show you how to work with Power BI. 😢😢 
 Take some time to explore the content of these links. Now let's see how you can visualize your data with Power BI Desktop, just in case you are more convenient with the desktop version.
 
 # Visualizing data with Power BI Desktop
+Have you tried visualizing data with Power BI Desktop? You should definitely try it out. If you haven't already, please [download](https://powerbi.microsoft.com/en-us/desktop/) Power BI Desktop. In this section, I would show you how to connect and visualize data in your SharePoint List using Power BI Desktop. If you have installed Power BI Desktop already, open it.
+
+![](/Images/powerbi-2.PNG)
+
+Click on 'Get data'. In the Get Data dialog, search for "SharePoint" and select 'SharePoint Online List'. Click 'Connect' and input your SharePoint Online site that contains your list in the "Site URL". Next click 'Ok'.
+
+You might see a SharePoint access screen like the one in the image below. If you see it, select 'Microsoft Account' and click 'sign in' to connect to your Microsoft 365 account. Once signed in, click 'Connect'.
+
+![](/Images/powerbi-3.PNG)
+
+Not to worry if your screen didn't look like the one above. It should look like the one below.
+
+![](/Images/powerbi-4.PNG)
+
+Select the specific SharePoint List you want to connect to and click 'Transform Data'. The goal of transforming this data first is to discard unnecessary columns.
+
+![](/Images/powerbi-5.PNG)
+
+Select all colunms that are not relevant and delete. You should be left with 5 columns (Title and the columns for the 4 questions). Next click 'Close and Apply'. When you do, your data would be loaded into Power BI Desktop.
+
+![](/Images/powerbi-6.PNG)
+
+But wait! What if you already connected your SharePoint list and new responses are submitted, does that mean you have to go through this process again? Well I've got some good news for you....😁🙌🎉
+
+You don't have to go through this process again. Here's what you need to do.
+
+Just click on 'Home' in the top navbar and then 'Refresh' under Queries. Immediately you do, your visualization would check if there are new results and update accordingly.
+
+To learn about building presentable visuals, reports, and dashboards, check out the recommended learning resources above and the ones below too:
+- [Get started building with Power BI](https://docs.microsoft.com/en-us/learn/modules/get-started-with-power-bi/)
+- [How to build a simple dashboard](https://docs.microsoft.com/en-us/learn/modules/build-simple-dashboard/)
