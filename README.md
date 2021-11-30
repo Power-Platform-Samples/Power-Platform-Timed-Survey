@@ -1,7 +1,9 @@
 # Overview
-Does your organisation cherish and care about our employees. They are an integral part of your success and your greatest asset. At all times, to ensure that their voices are heard. To understand what needs to change within the organization, would you like an annoymous surveys and speaks with its employees about the current state of work. Have the aility to listen to the inputs, reviews, and suggestions of employees. 
+Did you know that only 15% of employees worldwide are engaged with their work? The survey by [Smarp](https://blog.smarp.com/employee-engagement-8-statistics-you-need-to-know) also states that 71% of executives say that employee engagement is critical to their company's success. Employee engagement according to [BuiltIn](https://builtin.com/employee-engagement/how-to-improve-employee-engagement) is the degree to which employees are motivated by, passionate about and invested in the work they  do.
 
-The following tool has been developed to allow you to embedded these surveys in your organization and get reviews from your employees at frequent intervals.
+Employee engagements goes beyond activities, games, and events. It is extent to which employees feel passionate about their jobs, are committed to the organization, and put discretionary effort into their work - [Custom Insight](https://www.custominsight.com/employee-engagement-survey/what-is-employee-engagement.asp)
+
+The goal is to understand what needs to change within the organization. The following tool has been developed to allow you to embed surveys in your organization and get reviews from your employees at frequent intervals.
 
 Microsoft's Power Platform can help make this happen. This sample showcases how you can integrate an automated employee review system in your organization using either Power Apps or Power Virtual Agents. Your automated system would share the survey with employees in your organization at the scheduled time and date, collect all responses, and upload them in real-time on SharePoint. From SharePoint, you can visualize the results to gain confirmed insights for growing your organization using Power BI.
 
