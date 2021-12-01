@@ -146,6 +146,7 @@ Click on 'Turn on Teams' so your bot would be turned on. To give everyone in you
 
 ![](/Images/powervirtualagents-10.PNG)
 
+# Activating your Power Virtual Agent Bot in your Organization
 If you are admin in your organization already, head over to [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/dashboard) to activate the submitted bot. Click on 'Teams apps' then 'Manage apps' in the left navbar. Your screen should look like the one below.
 
 ![](/Images/powervirtualagents-11.PNG)
